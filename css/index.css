@@ -126,8 +126,18 @@ html{
   text-align: center;
 }
 
+/* nav ul>li:nth-child(1):hover>div{
+  display: block;
+}
+nav ul>li:nth-child(2):hover>div{
+  display: block;
+}
+nav ul>li:nth-child(3):hover>div{
+  display: block;
+}
+nav ul>li:nth-child(1):hover>div{} */
 
-nav ul>li div{
+nav ul>.sub01 div{
   /* display: none; */
   position:absolute;
   width: 100%;
@@ -136,7 +146,7 @@ nav ul>li div{
   /* background-color: rgba(255, 253, 253, 0.733); */
   top:70px;
 }
-nav ul>li div>p.close{
+nav ul>.sub01 div>p.close{
   position:absolute;
   right:10px;
   top:10px;
@@ -144,22 +154,23 @@ nav ul>li div>p.close{
   /* background-color:red; */
   text-align: center;
 }
-nav ul>li div>p.close>i{
+nav ul>.sub01 div>p.close>i{
   color: #fff;
   font-size: 50px;
   box-sizing: border-box;
 }
 
-nav ul>li div>ul{
+nav ul>.sub01 div>ul{
   width:80%;
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 100px auto 37px;
   background-color: #fff;
   
 }
-nav ul>li div>ul>li{
+nav ul>.sub01 div>ul>li{
   /* padding: 25px 0; */
   width: 20%;
   height: 100px;
@@ -170,28 +181,32 @@ nav ul>li div>ul>li{
   text-align: center;
   padding: 25px 0;
 }
-nav ul>li div>ul>li:first-child{
+nav ul>.sub01 div>ul>li:first-child{
   border-left: 1px solid #222;
 }
-nav ul>li div>ul>li a{
+nav ul>.sub01 div>ul>li a{
 }
-nav ul>li div>ul>li a>img{
+nav ul>.sub01 div>ul>li a>img{
 }
 
-nav ul>li div>p:last-child{
+nav ul>.sub01 div>p:last-child{
   width: 80%;
   margin: 0 auto 44px;
 }
-nav ul>li div>p:last-child>a{
+nav ul>.sub01 div>p:last-child>a{
   font-size: 18px;
   text-decoration: none;
   color: #fff;
 }
-nav ul>li div>p:last-child>a>span{
+nav ul>.sub01 div>p:last-child>a>span{
   font-size: 18px;
   color: #fff;
   width: 30px;
 }
+/* 액티비티 */
+
+
+
 
 
 /* box01 */
