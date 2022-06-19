@@ -77,7 +77,7 @@ html{
   
 }
 
-#header>header>nav a{
+a{
   color: #fff;
   text-decoration: none;
 }
@@ -137,16 +137,15 @@ nav ul>li:nth-child(3):hover>div{
 }
 nav ul>li:nth-child(1):hover>div{} */
 
-nav ul>.sub01 div{
+nav ul>li>div{
   /* display: none; */
   position:absolute;
   width: 100%;
-  left:0;
-  background-color: rgba(51, 51, 51, 0.9);
+  left:0;  top:70px;
+  background-color: rgba(51, 51, 51, 0.95);
   /* background-color: rgba(255, 253, 253, 0.733); */
-  top:70px;
 }
-nav ul>.sub01 div>p.close{
+nav ul>li>div>p.close{
   position:absolute;
   right:10px;
   top:10px;
@@ -154,13 +153,16 @@ nav ul>.sub01 div>p.close{
   /* background-color:red; */
   text-align: center;
 }
-nav ul>.sub01 div>p.close>i{
+nav ul>li>div>p.close>i{
   color: #fff;
   font-size: 50px;
   box-sizing: border-box;
 }
+nav ul>.sub02>div>p.close>i{
+  color: #333;
+}
 
-nav ul>.sub01 div>ul{
+nav ul>.sub01>div>ul{
   width:80%;
   display:flex;
   justify-content: center;
@@ -170,7 +172,7 @@ nav ul>.sub01 div>ul{
   background-color: #fff;
   
 }
-nav ul>.sub01 div>ul>li{
+nav ul>.sub01>div>ul>li{
   /* padding: 25px 0; */
   width: 20%;
   height: 100px;
@@ -181,30 +183,144 @@ nav ul>.sub01 div>ul>li{
   text-align: center;
   padding: 25px 0;
 }
-nav ul>.sub01 div>ul>li:first-child{
+nav ul>.sub01>div>ul>li:first-child{
   border-left: 1px solid #222;
 }
-nav ul>.sub01 div>ul>li a{
+nav ul>.sub01>div>ul>li a{
 }
-nav ul>.sub01 div>ul>li a>img{
+nav ul>.sub01>div>ul>li a>img{
 }
 
-nav ul>.sub01 div>p:last-child{
+nav ul>.sub01>div>p:last-child{
   width: 80%;
   margin: 0 auto 44px;
 }
-nav ul>.sub01 div>p:last-child>a{
+nav ul>.sub01>div>p:last-child>a{
   font-size: 18px;
   text-decoration: none;
   color: #fff;
 }
-nav ul>.sub01 div>p:last-child>a>span{
+nav ul>.sub01>div>p:last-child>a>span{
   font-size: 18px;
   color: #fff;
   width: 30px;
 }
 /* 액티비티 */
 
+nav ul>.sub02>div{
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+nav ul>.sub02>div>div{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 100px auto 37px;
+}
+nav ul>.sub02>div>div>ul{
+  width: 33%;
+  padding: 15px 70px;
+}
+nav ul>.sub02>div>div>dl{
+  width: 33%;
+  border-left: 1px solid #999;
+  box-sizing: border-box;
+  padding: 15px 70px;
+  position: relative;
+}
+nav ul>.sub02:nth-child(3)>div>div>ul{}
+nav ul>.sub02:nth-child(3)>div>div>ul>li:first-child{
+  margin-bottom: 20px;
+}
+nav ul>.sub02:nth-child(3)>div>div>ul>li>a{
+  display: block;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+}
+nav ul>.sub02:nth-child(3)>div>div>ul>li:last-child{
+  font-size: 14px;
+  line-height: 20px;
+  border-top: 1px solid #999;
+  padding-top: 20px;
+}
+
+
+
+nav ul>.sub02:nth-child(3)>div>div>dl>dt{
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  line-height: 180px;
+  font-size: 20px;
+}
+nav ul>.sub02:nth-child(3)>div>div>dl>dt>a{
+  display: block;
+  background: url(../images/nav/activity/kids.jpg) no-repeat center;
+  background-size: 100%;
+}
+nav ul>.sub02:nth-child(3)>div>div>dl>dd>a{
+  display: block;
+  font-size: 18px;
+  color: #333;
+  position: relative;
+  border-bottom: 1px solid #999;
+  line-height: 48px;
+}
+nav ul>.sub02:nth-child(3)>div>div>dl>dd>a>span{
+  position: absolute;
+  right: 0; top: 0;
+}
+
+/* ==========예약==================== */
+nav ul>.sub02:nth-child(4)>div>div>ul:first-child>li{
+  margin-bottom: 30px;
+}
+nav ul>.sub02:nth-child(4)>div>div>ul:first-child a{
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #333;
+}
+nav ul>.sub02:nth-child(4)>div>div>ul:first-child>li:last-child{
+  font-size: 14px;
+  border-top: 1px solid #999;
+  line-height: 20px;
+  padding-top: 20px;
+}
+nav ul>.sub02:nth-child(4) .tagTable{
+  border-left: 1px solid #999;
+}
+nav ul>.sub02:nth-child(4) .tagTable>li{
+  margin-bottom: 25px;
+}
+nav ul>.sub02:nth-child(4) .tagTable>li a{
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #333;
+}
+nav ul>.sub02:nth-child(4) .tagTable>li:nth-child(2)>ul{
+  width: 315px;
+  height: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+nav ul>.sub02:nth-child(4) .tagTable>li:nth-child(2)>ul>li{
+  width: 100px;
+  /* height: 43px; */
+  border: 1px solid #999;
+  text-align: center;
+  box-sizing: border-box;
+}
+nav ul>.sub02:nth-child(4) .tagTable>li:nth-child(2)>ul>li a{
+  display: block;
+  line-height: 43px;
+}
 
 
 
@@ -227,6 +343,7 @@ nav ul>.sub01 div>p:last-child>a>span{
   /* margin-left: -390px; */
   text-align: center;
   color: #fff;
+  text-shadow: 1px 2px 3px #333
 }
 #box01>article>header>h3{
   font-size: 83px;
