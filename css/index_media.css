@@ -1,0 +1,18 @@
+@media screen and (min-width:1400px){
+    /* 98% -> 1400px */
+    #box02>article>ul:nth-child(2){
+        width: 1400px ;     
+      }
+    
+      #box02>article>ul.str{
+        width: 1400px;
+      }
+      #box02>article>ul:nth-child(2){
+        width: 1400px;
+      }
+      #gallery>#show{
+        width: 1000px;
+      }
+}
+
+@media screen and () and() {}

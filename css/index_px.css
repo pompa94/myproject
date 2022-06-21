@@ -651,13 +651,9 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 #box01>article>div>form{}
 #box01>article>div>form>fieldset{}
 #box01>article>div>form>fieldset>ul{
-  width: 1130px;
-  margin: 0 auto;
   display: flex;
   align-items: flex-end;
-  
-  justify-content: space-between;
-  
+  justify-content: center;
 }
 #box01>article>div>form>fieldset>ul>li:first-child{
   display: flex;
@@ -684,7 +680,6 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
-  justify-content: space-between;
   margin-left: 10px;
   height: 90px;
   box-sizing: border-box;
@@ -700,20 +695,14 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   box-sizing: border-box;
 }
 #box01>article>div>form>fieldset>ul>li:last-child{
-  
-}
-#box01>article>div>form>fieldset>ul>li:last-child>label{
-  height: 33px;
+  position: relative;
 }
 #box01>article>div>form>fieldset>ul>li:last-child>input{
-  width: 100%;
+  width: 170px;
   height: 56px;
+  position: absolute;
+  bottom: 0;
   font-size: 20px;
-  padding: 0 45px;
-  text-align: center;
-  background-color: #333333;
-  color: #fff;
-  border: none;
 }
 
 
@@ -731,15 +720,15 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 }
 
 #box02>article>ul.str{
-  width: 98%/* 1400px */;
+  width: 1400px;
   /* background-color: red; */
   color: #333;
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
   margin: 0 auto 180px;
+  
 }
-
 #box02>article>ul.str>li{
   overflow:hidden;
   height: 180px;
@@ -845,15 +834,15 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 
 
 #box02>article>ul:nth-child(2){
-  /* width: 100%; */
-  width:98%/*  1400px */;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto 180px;
+  /* width: 100%; */
+  width: 1400px;
   justify-content: center;
-}
 
+}
 #box02>article>ul:nth-child(2)>li{
   text-align: center;
   width: 50%;
@@ -905,8 +894,8 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   position: relative;
 }
 #gallery>#show{
-  /* background-color: green; */
-  width: 71.42857142%/* 1000px */;
+  background-color: green;
+  width: 1000px;
   height: 405px;
   position: relative;
   margin: 0 auto;
