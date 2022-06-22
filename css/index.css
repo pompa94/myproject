@@ -45,6 +45,7 @@ html{
   left: 0; top: 0;
   width: 100%;
   z-index: 900;
+  margin: 0 auto;
 }
 #wrap>#header:hover{
   background-color: #fff;
@@ -68,6 +69,7 @@ html{
     display: block;
     width: 200px;
 }
+
 #header>header>nav{
   width: 50%;
   display: flex;
@@ -602,7 +604,9 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 
 
 /* box01 ============================*/
-#box01{}
+#box01{
+  margin: 0 auto;
+}
 #box01>article{
   background: url(../images/main/main_01.jpg) no-repeat center;
   background-size: 100%;
@@ -718,7 +722,10 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 
 
 
-#box02{}
+#box02{
+  margin-bottom: 80px;
+
+}
 #box02>article{
   /* background-color: aqua; */
   margin: 0 auto;
@@ -899,7 +906,9 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   line-height: 60px;
   margin-bottom: 43px;
 }
-
+#box02>article>section{
+  margin: 0 auto;
+}
 #box02>article>section>#gallery{
   /* background-color: red; */
   position: relative;
@@ -937,7 +946,6 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   background-size: 500px;
   box-sizing:border-box;
   background-color: #fff;
-
 }
 #gallery #all>ul>li>div{
   height: 100%;

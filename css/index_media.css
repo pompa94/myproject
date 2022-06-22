@@ -15,4 +15,16 @@
       }
 }
 
-@media screen and () and() {}
+@media screen and (max-width:1399px) and (min-width:980px) {
+
+}
+
+@media screen and (max-width:979px) and (min-width:580px){
+  #header>header>nav{
+    display: none;
+  }
+  #header>header>nav>ul{
+    
+  }
+
+}
