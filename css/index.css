@@ -648,14 +648,14 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   position: absolute;
   bottom: 0; left: 0;
   background-color: #666;
-  width: 100%;
+  width: 98%/* 1400px */;
   text-align: center;
   padding: 15px;
 }
 #box01>article>div>form{}
 #box01>article>div>form>fieldset{}
 #box01>article>div>form>fieldset>ul{
-  width: 1130px;
+  width: 80.7142857%/* 1130px */;
   margin: 0 auto;
   display: flex;
   align-items: flex-end;
@@ -664,12 +664,12 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   
 }
 #box01>article>div>form>fieldset>ul>li:first-child{
+  /* width: 377px; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 377px;
   color: #fff;
   margin-left: 0;
 }
@@ -689,8 +689,8 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   text-align: left;
   align-items: flex-start;
   justify-content: space-between;
-  margin-left: 10px;
-  height: 90px;
+  margin-left: 0.884955752%/* 10px */;
+  /* height: 90px; */
   box-sizing: border-box;
 }
 #box01>article>div>form>fieldset>ul>li>label{
@@ -707,7 +707,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   
 }
 #box01>article>div>form>fieldset>ul>li:last-child>label{
-  height: 33px;
+  height: 50%;
 }
 #box01>article>div>form>fieldset>ul>li:last-child>input{
   width: 100%;
@@ -915,7 +915,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 }
 #gallery>#show{
   /* background-color: green; */
-  width: 71.42857142%/* 1000px */;
+  width: 80%/* 1000px */;
   height: 405px;
   position: relative;
   margin: 0 auto;
@@ -940,35 +940,39 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 }
 #gallery #all>ul>li{
   width: 25%/* 1000px */;
-  height: 100%;
-  padding-left: 500px;
-  background: url(../images/main/main_01.jpg) no-repeat left;
-  background-size: 500px;
+  /* height: 100%; */
+  
   box-sizing:border-box;
   background-color: #fff;
 }
 #gallery #all>ul>li>div{
-  height: 100%;
-  padding: 60px 30px;
+  padding-left: 52% /* 500px */;
+  background: url(../images/main/main_01.jpg) no-repeat left;
+  background-size: 50%/* 500px */;
+  /* padding: 60px 30px; */
   background-color: #fff;
   box-sizing: border-box;
+  padding-top: 50px;
+  padding-right: 2%;
+  border: 1px solid #999;
 }
 #gallery #all>ul>li>div>p:nth-child(1){
   font-size: 38px;
-  line-height: 50px;
+  line-height: 40px;
+  margin-bottom: 30px;
   /* color: #fff; */
-  line-height: 50px;
 }
 #gallery #all>ul>li>div .info01{
   display: flex;
   font-size: 16px;
-  line-height: 80px;
+  line-height: 18px;
+  margin-bottom: 30px;
 }
 #gallery #all>ul>li>div .info01>dt{
   font-size: 18px;
   font-weight: bold;
   margin-right: 15px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 #gallery #all>ul>li>div .info01>dt:first-child{
   margin-left: 0;
@@ -979,7 +983,9 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 }
 #gallery #all>ul>li>div .info02{
   display: flex;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
 #gallery #all>ul>li>div .info02>dt{
   margin-right: 15px;
@@ -988,7 +994,8 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 #gallery #all>ul>li>div .info03{
   display: flex;
   justify-content: flex-end;
-  line-height: 45px;
+  line-height: 35px;
+  margin-bottom: 10px;
 }
 #gallery #all>ul>li>div .info03>dt{
   font-size: 16px;
@@ -1000,7 +1007,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 #gallery #all>ul>li>div>p:nth-child(5){
   text-align: end;
   font-size: 13px;
-  line-height: 30px;
+  line-height: 15px;
 }
 #gallery #all>ul>li>div>p:last-child{
   text-align: end;
@@ -1047,7 +1054,7 @@ footer{
   padding-top: 50px;
 }
 footer #footer01{
-  /* width: 1400px; */
+  width: 98%/* 1400px */;
   margin: 0 auto;
   /* background-color: #000; */
   padding-left: 50%;
@@ -1104,8 +1111,11 @@ footer #footer01>ul>li>a{
   border-top: 1px solid #888889;
   padding-top: 35px;
 }
+#footer01 .foot01Last>.last01{
+  width: 50%/* 700px */;
+}
 #footer01 .foot01Last>.last01>dl:nth-child(1){
-  width: 270px;
+  width: 38.5714285714%* 270px *;
   margin-bottom: 140px;
   color: #888889;
   display: flex;
@@ -1164,6 +1174,7 @@ footer #footer02>ul{
 
 .last02{
   /* background-color: red; */
+  width: 50%;
 }
 
 .last02>dl{
