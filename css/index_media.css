@@ -28,11 +28,35 @@
 
 
 @media screen and (max-width:979px) and (min-width:580px){
-  #header>header>nav{
-    display: none;
+  /* header */
+
+  /* box01 */
+  #box01>article>header{
+    /* width: 780px; */
+    /* margin-left: -390px; */
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 3px #333
   }
-  #header>header>nav>ul{
-    
+  #box01>article>header>h3{
+    font-size: 23px;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+  #box01>article>header>p{
+    display: none
+  }
+
+  #box01>article>div{
+    width: 80%;
+    position: unset;
+    left: 10%; bottom: 0;
+    background-color: #666;
+    text-align: center;
+    padding: 15px;
+  }
+  #box01>article>div>form{
+    margin: 0 auto;
   }
 
 }
