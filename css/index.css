@@ -658,6 +658,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   background-color: #666;
   text-align: center;
   padding: 15px;
+  box-sizing: border-box;
 }
 #box01>article>div>form{}
 #box01>article>div>form>fieldset{}
@@ -951,7 +952,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 }
 #gallery #all>ul>li>div{
   padding-left: 52% /* 500px */;
-  background: url(../images/main/main_01.jpg) no-repeat left;
+  background: url(../images/main/main_Room.jpg) no-repeat left;
   background-size: 50%/* 500px */;
   /* padding: 60px 30px; */
   background-color: #fff;
@@ -1124,16 +1125,17 @@ footer #footer01>ul>li>a{
   color: #888889;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 #footer01 .foot01Last>.last01>dl:first-child dt{
   font-size: 13px;
-  width: 45%;
+  /* width: 45%; */
   line-height: 30px;
 }
 #footer01 .foot01Last>.last01>dl:first-child dd{
   font-size: 18px;
-  width: 45%;
-  line-height: 30px;
+  /* width: 45%; */
+  line-height: 25px;
 }
 
 #footer01 .foot01Last>.last01>dl:nth-child(2){
