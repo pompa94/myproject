@@ -132,6 +132,10 @@ a{
   width: 50%;
 }
 
+#header>header>p{
+  display: none;
+}
+
 /* nav ul>li:nth-child(1):hover>div{
   display: block;
 }
@@ -150,6 +154,9 @@ nav ul>li>div{
   left:0;  top:70px;
   background-color: rgba(51, 51, 51, 0.95);
   /* background-color: rgba(255, 253, 253, 0.733); */
+}
+nav ul>li:nth-child(6)>div{
+  display:block;
 }
 nav ul>li>div>p.close{
   position:absolute;
@@ -602,6 +609,8 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
  
   color: #333;
 }
+
+
 /* ====================서브메뉴 끝========================== */
 
 
