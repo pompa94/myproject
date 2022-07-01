@@ -124,7 +124,7 @@
 #logIn{
   width: 33%;
   padding: 15px 10px;
-box-sizing:border-box;
+  box-sizing:border-box;
 }
 #logIn .logform01{
   width:100%;
@@ -252,16 +252,190 @@ box-sizing:border-box;
 
 
   #header>header>nav{
+    /* display: none; */
     position: fixed;
     width: 90vw;
     left: 5vw;
-    top: 10vw;
+    top: 10%;
     border-radius: 15px;
     justify-content: center;
+    background-color: silver;
+    height: 80%;
   }
   #header>header>nav>.menu01{
     /* display: none; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
   }
+  #header>header>nav>.menu01>li{
+    line-height: 0;
+    font-size: 20px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    border-radius: 15px;
+  }
+  nav ul>li>div{
+    left:0;  top:0px;
+  }
+  /* sub01 */
+  nav ul>.sub01>div>ul{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px auto 37px;
+    background-color: #fff;
+  }
+  nav ul>.sub01>div>ul>li{
+    display: none;
+    width: auto;
+    height: auto;
+    border: none;
+    border-left: none;
+    padding: 0 0;
+  }
+  nav ul>.sub01>div>ul>li:first-child{
+    border-left: none;
+  }
+  nav ul>.sub01>div>ul>li a{
+  }
+  nav ul>.sub01>div>ul>li a>img{
+    display: none;
+  }
+
+  /* 액티비티 */
+  nav ul>.sub02:nth-child(3)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(3)>div>div>ul{
+    width: 100%;
+    padding: 0 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(3)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0 0;
+  }
+  nav ul>.sub02:nth-child(3)>div>div>dl dt{
+    display: none;
+  }
+
+  /* 예약 */
+  nav ul>.sub02:nth-child(4)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(4)>div>div>ul{
+    width: 100%;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(4)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0;
+
+  }
+  nav ul>.sub02:nth-child(4)>div>div>dl dt{
+    display: none;
+  }
+  nav ul>.sub02:nth-child(4) dl>dd{
+    width: 100%;
+  }
+  nav ul>.sub02:nth-child(4) dl>dd>a{
+    display: inline;
+  }
+  /*  */
+  nav ul>.sub02:nth-child(4) .tagTable{
+    border-left: none;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li{
+    margin-bottom: 10px;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li a{
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li:nth-child(2)>ul{
+    width: auto;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li:nth-child(2)>ul>li{
+    width:29.3% ;
+    /* height: 43px; */
+    margin-bottom:10px;
+  }
+
+  /* 스토어 */
+  nav ul>.sub02:nth-child(5)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(5)>div>div>ul{
+    width: 100%;
+    padding: 0 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(5)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0 0;
+  }
+  nav ul>.sub02:nth-child(5)>div>div>dl dt{
+    display: none;
+  }
+
+  /* 로그인 */
+  nav ul>.sub02:nth-child(6)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>ul{
+    width: 100%;
+    padding: 0 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0 0;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>dl dt{
+    display: none;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>ul>li:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #logIn{
+    width: 100%;
+  }
+  /*  */
+
+
 
   #header>header>nav>.menu02{
     width: auto;
@@ -688,14 +862,188 @@ box-sizing:border-box;
 
 
   #header>header>nav{
-    display: none;
-    width: 10%;
+    /* display: none; */
+    position: fixed;
+    width: 90vw;
+    left: 5vw;
+    top: 10%;
+    border-radius: 15px;
     justify-content: center;
-    position: absolute;
-    left: 0; top: 0;
+    background-color: silver;
+    height: 80%;
   }
   #header>header>nav>.menu01{
+    /* display: none; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+  #header>header>nav>.menu01>li{
+    line-height: 0;
+    font-size: 20px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    border-radius: 15px;
+  }
+
+
+  nav ul>li>div{
+    left:0;  top:0px;
+  }
+  /* sub01 */
+  nav ul>.sub01>div>ul{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px auto 37px;
+    background-color: #fff;
+  }
+  nav ul>.sub01>div>ul>li{
     display: none;
+    width: auto;
+    height: auto;
+    border: none;
+    border-left: none;
+    padding: 0 0;
+  }
+  nav ul>.sub01>div>ul>li:first-child{
+    border-left: none;
+  }
+  nav ul>.sub01>div>ul>li a{
+  }
+  nav ul>.sub01>div>ul>li a>img{
+    display: none;
+  }
+
+  /* 액티비티 */
+  nav ul>.sub02:nth-child(3)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(3)>div>div>ul{
+    width: 100%;
+    padding: 0 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(3)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0 0;
+  }
+  nav ul>.sub02:nth-child(3)>div>div>dl dt{
+    display: none;
+  }
+
+  /* 예약 */
+  nav ul>.sub02:nth-child(4)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(4)>div>div>ul{
+    width: 100%;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(4)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0;
+
+  }
+  nav ul>.sub02:nth-child(4)>div>div>dl dt{
+    display: none;
+  }
+  nav ul>.sub02:nth-child(4) dl>dd{
+    width: 100%;
+  }
+  nav ul>.sub02:nth-child(4) dl>dd>a{
+    display: inline;
+  }
+  /*  */
+  nav ul>.sub02:nth-child(4) .tagTable{
+    border-left: none;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li{
+    margin-bottom: 10px;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li a{
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li:nth-child(2)>ul{
+    width: auto;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+  }
+  nav ul>.sub02:nth-child(4) .tagTable>li:nth-child(2)>ul>li{
+    width:29.3% ;
+    /* height: 43px; */
+    margin-bottom:10px;
+  }
+
+  /* 스토어 */
+  nav ul>.sub02:nth-child(5)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(5)>div>div>ul{
+    width: 100%;
+    padding: 0 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(5)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0 0;
+  }
+  nav ul>.sub02:nth-child(5)>div>div>dl dt{
+    display: none;
+  }
+
+  /* 로그인 */
+  nav ul>.sub02:nth-child(6)>div>div{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>ul{
+    width: 100%;
+    padding: 0 0;
+    box-sizing:border-box;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>dl{
+    width: 100%;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0 0;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>dl dt{
+    display: none;
+  }
+  nav ul>.sub02:nth-child(6)>div>div>ul>li:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #logIn{
+    width: 100%;
   }
 
   #header>header>nav>.menu02{
