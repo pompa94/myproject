@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/index_media.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="./js/index.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -340,7 +341,7 @@
             <article>
                 <ul class="str">
                     <li class="off">
-                        <a href="#">
+                        <a href="#box02">
                             <dl>
                                 <dt>로고1</dt>
                                 <dd>VISTA WALKERHILL SEOUL</dd>
@@ -348,7 +349,7 @@
                         </a>
                     </li>
                     <li class="on">
-                        <a href="#" >
+                        <a href="#box02" >
                             <dl>
                                 <dt>로고2</dt>
                                 <dd>GRAND WALKERHILL SEOUL</dd>
@@ -356,7 +357,7 @@
                         </a>
                     </li>
                     <li class="off">
-                        <a href="#">
+                        <a href="#box02">
                             <dl>
                                 <dt>로고3</dt>
                                 <dd>DOUGLAS HOUSE</dd>
@@ -633,15 +634,31 @@
         </footer>
     </div>
 
-    <script>
+    <!-- <script>
         $(function(){
-            $('.menu01>.sub01:nth-child(1) a').on('click',function(e){
-                $('.menu01>.sub01:nth-child(1) div').css('display','block')
+
+            $('.menu01>li:nth-child(1)>a').on('click',function(e){
+                $('.menu01>li:nth-child(1)>div').css('display','block')
+            });
+            $('.menu01>li:nth-child(2)>a').on('click',function(e){
+                $('.menu01>li:nth-child(2)>div').css('display','block')
+            });
+            $('.menu01>li:nth-child(3)>a').on('click',function(e){
+                $('.menu01>li:nth-child(3)>div').css('display','block')
+            });
+            $('.menu01>li:nth-child(4)>a').on('click',function(e){
+                $('.menu01>li:nth-child(4)>div').css('display','block')
+            });
+            $('.menu01>li:nth-child(5)>a').on('click',function(e){
+                $('.menu01>li:nth-child(5)>div').css('display','block')
+            });
+            $('.menu01>li:nth-child(6)>a').on('click',function(e){
+                $('.menu01>li:nth-child(6)>div').css('display','block')
             });
             $('.close').on('click',function(e){
-                $('.menu01>li div').css('display','none')
+                $('.menu01>li>div').css('display','none')
             })
         })
-    </script>
+    </script> -->
 </body>
 </html>
