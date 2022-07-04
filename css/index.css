@@ -155,9 +155,9 @@ nav ul>li>div{
   background-color: rgba(51, 51, 51, 0.95);
   /* background-color: rgba(255, 253, 253, 0.733); */
 }
-nav ul>li:nth-child(6)>div{
+/* nav ul>li:nth-child(6)>div{
   display:block;
-}
+} */
 nav ul>li>div>p.close{
   position:absolute;
   right:10px;

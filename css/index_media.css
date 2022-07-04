@@ -252,7 +252,7 @@
 
 
   #header>header>nav{
-    /* display: none; */
+    display: none;
     position: fixed;
     width: 90vw;
     left: 5vw;
@@ -862,7 +862,7 @@
 
 
   #header>header>nav{
-    /* display: none; */
+    display: none;
     position: fixed;
     width: 90vw;
     left: 5vw;
