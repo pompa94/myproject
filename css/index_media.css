@@ -640,7 +640,6 @@
 
   #gallery #all>ul>li>div{
     padding-left: 0 /* 500px */;
-    background: url(../images/main/main_Room.jpg) no-repeat center;
     background-size: 100%/* 500px */;
     /* padding: 60px 30px; */
     background-color: none;
@@ -653,6 +652,15 @@
     align-items: flex-end;
     justify-content: center;
     height: 100%;
+  }
+  #gallery #all>ul>li:nth-child(2)>div{
+    background-size: 100%/* 500px */;
+  }
+  #gallery #all>ul>li:nth-child(3)>div{
+    background-size: 100%/* 500px */;
+  }
+  #gallery #all>ul>li:nth-child(4)>div{
+    background-size: 100%/* 500px */;
   }
 
   #gallery #all>ul>li>div>p:nth-child(1){

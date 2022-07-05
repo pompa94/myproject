@@ -620,7 +620,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   margin: 0 auto;
 }
 #box01>article{
-  background: url(../images/main/main_01.jpg) no-repeat center;
+  background: url(../images/main/main.jpg) no-repeat center;
   background-size: 100%;
   height: 100vh;
   display: flex;
@@ -804,6 +804,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   /* background-color: red; */
   text-align: center;
   position: relative;
+  overflow:hidden;
 }
 #box02>article>ul:nth-child(1)>li:nth-child(1){
   /* width: 220px; */
@@ -842,15 +843,27 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   display:flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+}
+#box02>article>ul:nth-child(1)>li.on>a dl>dd{
+  position:absolute;
+  left:0; top:0;
+  /* display: none; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 #box02>article>ul:nth-child(1)>li>a dl>dt{
   position:absolute;
   left:0; top:0;
   width: 100%;
-  display: none;
-  /* display:flex; */
+  /* display: none; */
+  display:flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 #box02>article>ul:nth-child(1)>li>a dl>dd{
   position:absolute;
@@ -904,10 +917,15 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   box-sizing: border-box;
 } 
 #box02>article>ul:nth-child(2)>li:first-child{
-  border: 1px solid #333;
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+  border-right: 0.5px solid #333;
   border-bottom: none;
 }
 #box02>article>ul:nth-child(2)>li:last-child{
+  border-top: none;
+  border-left: 0.5px solid #999;
+  border-right: 1px solid #999;
   border-bottom: 1px solid #999;
   color: #999;
 }
@@ -988,6 +1006,19 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   padding-top: 50px;
   padding-right: 2%;
   border: 1px solid #999;
+}
+
+#gallery #all>ul>li.no02>div{
+  background: url(../images/main/main_Room2.jpg) no-repeat left;
+  background-size: 50%/* 500px */;
+}
+#gallery #all>ul>li.no03>div{
+  background: url(../images/main/main_Room3.jpg) no-repeat left;
+  background-size: 50%/* 500px */;
+}
+#gallery #all>ul>li.no04>div{
+  background: url(../images/main/main_Room4.jpg) no-repeat left;
+  background-size: 50%/* 500px */;
 }
 #gallery #all>ul>li>div>p:nth-child(1){
   font-size: 38px;
