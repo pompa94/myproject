@@ -282,33 +282,52 @@
     left:0;  top:0px;
   }
   /* sub01 */
+  nav ul>.sub01>div{
+    height: 100%;
+  }
   nav ul>.sub01>div>ul{
     width:80%;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 100px auto 37px;
-    background-color: #fff;
+    margin: 70px auto 20px;
+    background-color: rgba(51, 51, 51, 0.95);
+    /* flex-direction: column; */
+    
   }
   nav ul>.sub01>div>ul>li{
-    display: none;
+    /* display: none; */
     width: auto;
     height: auto;
     border: none;
     border-left: none;
-    padding: 0 0;
+    /* padding: 0 0; */
+    background-color: #fff;
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+    padding: 10px 20px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  nav ul>.sub01>div>ul>li:last-child{
+    margin-bottom: 0;
   }
   nav ul>.sub01>div>ul>li:first-child{
     border-left: none;
   }
   nav ul>.sub01>div>ul>li a{
+    width: 140px;
+    display: block;
   }
   nav ul>.sub01>div>ul>li a>img{
-    display: none;
+    /* display: none; */
   }
 
   /* 액티비티 */
+  nav ul>.sub02:nth-child(3)>div{
+    height: 100%;
+  }
   nav ul>.sub02:nth-child(3)>div>div{
     width: 90%;
     flex-direction: column;
@@ -330,6 +349,9 @@
   }
 
   /* 예약 */
+  nav ul>.sub02:nth-child(4)>div{
+    height: 100%;
+  }
   nav ul>.sub02:nth-child(4)>div>div{
     width: 90%;
     flex-direction: column;
@@ -385,6 +407,9 @@
   }
 
   /* 스토어 */
+  nav ul>.sub02:nth-child(5)>div{
+    height: 100%;
+  }
   nav ul>.sub02:nth-child(5)>div>div{
     width: 90%;
     flex-direction: column;
@@ -406,6 +431,9 @@
   }
 
   /* 로그인 */
+  nav ul>.sub02:nth-child(6)>div{
+    /* height: 100%; */
+  }
   nav ul>.sub02:nth-child(6)>div>div{
     width: 90%;
     flex-direction: column;
@@ -415,12 +443,14 @@
     width: 100%;
     padding: 0 0;
     box-sizing:border-box;
+    /* display: none; */
   }
   nav ul>.sub02:nth-child(6)>div>div>dl{
     width: 100%;
     border-left: none;
     box-sizing: border-box;
     padding: 0 0;
+    display: none;
   }
   nav ul>.sub02:nth-child(6)>div>div>dl dt{
     display: none;
@@ -586,9 +616,19 @@
     align-items: center;
     justify-content: center;
   }
+  #box02>article>ul:nth-child(1)>li.on>a dl>dt{
+    display: none;
+  }
+  #box02>article>ul:nth-child(1)>li.on>a dl>dd{
+    position: unset;
+  }
+  #box02>article>ul:nth-child(1)>li>a dl>dt{
+    display: none;
+  }
   #box02>article>ul:nth-child(1)>li>a dl>dd{
     width: auto;
     height: auto;
+    position: unset;
   }
 
   #box02>article>ul.str>li>a{
@@ -897,38 +937,56 @@
     border-radius: 15px;
   }
 
-
   nav ul>li>div{
     left:0;  top:0px;
   }
   /* sub01 */
+  nav ul>.sub01>div{
+    height: 100%;
+  }
   nav ul>.sub01>div>ul{
     width:80%;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 100px auto 37px;
-    background-color: #fff;
+    margin: 70px auto 20px;
+    background-color: rgba(51, 51, 51, 0.95);
+    /* flex-direction: column; */
+    
   }
   nav ul>.sub01>div>ul>li{
-    display: none;
+    /* display: none; */
     width: auto;
     height: auto;
     border: none;
     border-left: none;
-    padding: 0 0;
+    /* padding: 0 0; */
+    background-color: #fff;
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+    padding: 10px 20px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  nav ul>.sub01>div>ul>li:last-child{
+    margin-bottom: 0;
   }
   nav ul>.sub01>div>ul>li:first-child{
     border-left: none;
   }
   nav ul>.sub01>div>ul>li a{
+    width: 80px;
+    display: block;
   }
   nav ul>.sub01>div>ul>li a>img{
-    display: none;
+    /* display: none; */
   }
 
   /* 액티비티 */
+  nav ul>.sub02:nth-child(3)>div{
+    height: 100%;
+  }
   nav ul>.sub02:nth-child(3)>div>div{
     width: 90%;
     flex-direction: column;
@@ -950,6 +1008,9 @@
   }
 
   /* 예약 */
+  nav ul>.sub02:nth-child(4)>div{
+    height: 100%;
+  }
   nav ul>.sub02:nth-child(4)>div>div{
     width: 90%;
     flex-direction: column;
@@ -1005,6 +1066,9 @@
   }
 
   /* 스토어 */
+  nav ul>.sub02:nth-child(5)>div{
+    height: 100%;
+  }
   nav ul>.sub02:nth-child(5)>div>div{
     width: 90%;
     flex-direction: column;
@@ -1026,6 +1090,9 @@
   }
 
   /* 로그인 */
+  nav ul>.sub02:nth-child(6)>div{
+    /* height: 100%; */
+  }
   nav ul>.sub02:nth-child(6)>div>div{
     width: 90%;
     flex-direction: column;
@@ -1035,12 +1102,14 @@
     width: 100%;
     padding: 0 0;
     box-sizing:border-box;
+    /* display: none; */
   }
   nav ul>.sub02:nth-child(6)>div>div>dl{
     width: 100%;
     border-left: none;
     box-sizing: border-box;
     padding: 0 0;
+    display: none;
   }
   nav ul>.sub02:nth-child(6)>div>div>dl dt{
     display: none;
@@ -1242,6 +1311,19 @@
   #box02>article>ul.str>li>a>dl dt{
     display: none;
   }
+  #box02>article>ul:nth-child(1)>li.on>a dl>dt{
+    display: none;
+  }
+  #box02>article>ul:nth-child(1)>li.on>a dl>dd{
+    position: unset;
+  }
+  #box02>article>ul:nth-child(1)>li>a dl>dd{
+    width: auto;
+    height: auto;
+    position: unset;
+  }
+
+
 
   /* 갤러리 */
 
@@ -1282,6 +1364,16 @@
     align-items: flex-end;
     justify-content: center;
     height: 100%;
+  }
+
+  #gallery #all>ul>li:nth-child(2)>div{
+    background-size: 100%/* 500px */;
+  }
+  #gallery #all>ul>li:nth-child(3)>div{
+    background-size: 100%/* 500px */;
+  }
+  #gallery #all>ul>li:nth-child(4)>div{
+    background-size: 100%/* 500px */;
   }
 
 

@@ -1,6 +1,11 @@
 $(function(){
     const windowW = $(window).width();
 
+        // resize -> reset
+        $(window).on('resize',function(e){
+            window.location.reload();
+        })
+
     if(windowW > 1440){
         nav();
         str();
@@ -8,7 +13,17 @@ $(function(){
         str3();
         gallery();
     } 
-    // else if(){}
+    else if(windowW < 1440 && windowW > 980){
+        nav();
+        str();
+        str2();
+        str3();
+        gallery();
+    }
+    else if(windowW < 980){
+        gallery();
+        hamburger();
+    }
 
 
 
@@ -19,7 +34,7 @@ $(function(){
     // 함수 모음
  function nav(){
  $('nav>ul>li>a').on('click',function(){
-    $('nav>ul>li>div').hide()
+    $('nav>ul>li>div').hide();
     $(this).next().show();
     return false;
  })
@@ -134,6 +149,24 @@ $(function(){
 
             return false;
         })
+    })
+ }
+
+ function hamburger(){
+    $('#header>header>p').on('click',function(e){
+        $('nav').show();
+        $('#header>header>nav>.menu01').width('100%');
+        $('#header>header>nav>.menu01>li').width('80%');
+    })
+
+    $('nav>.menu01>li').on('click',function(e){
+        $('nav>ul>li>div').hide();
+        $(this).find('div').show();
+        return false;
+    })
+    $('.close').on('click',function(){
+        $('.menu01>li>div').hide();
+        return false;
     })
  }
 

@@ -47,7 +47,7 @@ html{
   z-index: 900;
   margin: 0 auto;
 }
-#wrap>#header:hover{
+#wrap>#header{
   background-color: #fff;
 }
 
@@ -1003,7 +1003,7 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
   /* padding: 60px 30px; */
   background-color: #fff;
   box-sizing: border-box;
-  padding-top: 50px;
+  padding-top: 15px;
   padding-right: 2%;
   border: 1px solid #999;
 }
@@ -1076,9 +1076,13 @@ nav ul>.sub02:nth-child(6)>div>div>dl>dd a{
 #gallery #all>ul>li>div>p:last-child{
   text-align: end;
   line-height: 50px;
+  padding: 10px 0;
 }
 #gallery #all>ul>li>div>p:last-child>button{
   font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 10px;
 }
 
 
