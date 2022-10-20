@@ -482,7 +482,7 @@
 
   /* box01 */
   #box01>article{
-    margin: 0 auto 0;
+    background: url(../images/main/main_800.png) no-repeat center;
   }
   #box01>article>header{
     /* width: 780px; */
@@ -1140,7 +1140,8 @@
 
    /* box01 */
    #box01>article{ 
-    margin: 0 auto 0;
+    /* margin-bottom: 0; */
+    background: url(../images/main/main_800.png) no-repeat center;
   }
    #box01>article>header{
     /* width: 780px; */
